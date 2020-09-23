@@ -1,0 +1,23 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst niosLab2.pio_0 -pg 1 -lvl 3 -y 230
+preplace inst niosLab2.pio_1 -pg 1 -lvl 3 -y 410
+preplace inst niosLab2.nios2_gen2_0.clock_bridge -pg 1
+preplace inst niosLab2.clk_0 -pg 1 -lvl 1 -y 270
+preplace inst niosLab2.nios2_gen2_0 -pg 1 -lvl 2 -y 100
+preplace inst niosLab2 -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst niosLab2.onchip_memory2_0 -pg 1 -lvl 3 -y 150
+preplace inst niosLab2.onchip_memory2_1 -pg 1 -lvl 3 -y 330
+preplace inst niosLab2.nios2_gen2_0.reset_bridge -pg 1
+preplace inst niosLab2.nios2_gen2_0.cpu -pg 1
+preplace inst niosLab2.jtag_uart_0 -pg 1 -lvl 3 -y 50
+preplace netloc FAN_OUT<net_container>niosLab2</net_container>(SLAVE)onchip_memory2_0.clk1,(SLAVE)pio_1.clk,(SLAVE)jtag_uart_0.clk,(MASTER)clk_0.clk,(SLAVE)pio_0.clk,(SLAVE)onchip_memory2_1.clk1,(SLAVE)nios2_gen2_0.clk) 1 1 2 270 60 690
+preplace netloc INTERCONNECT<net_container>niosLab2</net_container>(MASTER)nios2_gen2_0.instruction_master,(SLAVE)pio_0.s1,(SLAVE)pio_1.s1,(MASTER)nios2_gen2_0.data_master,(SLAVE)onchip_memory2_1.s1,(SLAVE)jtag_uart_0.avalon_jtag_slave,(SLAVE)nios2_gen2_0.debug_mem_slave,(SLAVE)onchip_memory2_0.s1) 1 1 2 310 480 730
+preplace netloc FAN_OUT<net_container>niosLab2</net_container>(SLAVE)pio_0.reset,(MASTER)clk_0.clk_reset,(SLAVE)jtag_uart_0.reset,(SLAVE)nios2_gen2_0.reset,(SLAVE)pio_1.reset,(SLAVE)onchip_memory2_0.reset1,(SLAVE)onchip_memory2_1.reset1) 1 1 2 290 460 770
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)pio_0.external_connection,(SLAVE)niosLab2.leds) 1 0 3 NJ 40 NJ 40 NJ
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)clk_0.clk_in_reset,(SLAVE)niosLab2.reset) 1 0 1 NJ
+preplace netloc FAN_OUT<net_container>niosLab2</net_container>(MASTER)nios2_gen2_0.irq,(SLAVE)jtag_uart_0.irq,(SLAVE)pio_1.irq) 1 2 1 710
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)pio_1.external_connection,(SLAVE)niosLab2.switches) 1 0 3 NJ 440 NJ 440 NJ
+preplace netloc EXPORT<net_container>niosLab2</net_container>(SLAVE)niosLab2.clk,(SLAVE)clk_0.clk_in) 1 0 1 NJ
+levelinfo -pg 1 0 60 980
+levelinfo -hier niosLab2 70 100 450 820 970
