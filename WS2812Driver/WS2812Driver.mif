@@ -1,0 +1,100 @@
+-- Copyright (C) 2018  Intel Corporation. All rights reserved.
+-- Your use of Intel Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Intel Program License 
+-- Subscription Agreement, the Intel Quartus Prime License Agreement,
+-- the Intel FPGA IP License Agreement, or other applicable license
+-- agreement, including, without limitation, that your use is for
+-- the sole purpose of programming logic devices manufactured by
+-- Intel and sold by Intel or its authorized distributors.  Please
+-- refer to the applicable agreement for further details.
+
+-- Quartus Prime generated Memory Initialization File (.mif)
+
+WIDTH=24;
+DEPTH=768;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=HEX;
+
+CONTENT BEGIN
+	0    :   0A0000;
+	1    :   000A00;
+	2    :   00000A;
+	3    :   300000;
+	4    :   003000;
+	5    :   000030;
+	6    :   FFFF00;
+	7    :   FF00FF;
+	8    :   00FFFF;
+	9    :   FFFFFF;
+	10   :   101010;
+	[11..12]  :   000000;
+	13   :   000080;
+	[14..16]  :   000000;
+	17   :   000080;
+	[18..24]  :   000000;
+	25   :   000001;
+	[26..31]  :   000000;
+	[32..33]  :   000001;
+	[34..40]  :   000000;
+	41   :   000001;
+	[42..49]  :   000000;
+	50   :   000001;
+	[51..57]  :   000000;
+	58   :   000001;
+	[59..63]  :   000000;
+	64   :   000001;
+	65   :   000000;
+	66   :   000001;
+	[67..74]  :   000000;
+	75   :   000001;
+	[76..78]  :   000000;
+	79   :   000001;
+	[80..82]  :   000000;
+	83   :   000001;
+	[84..90]  :   000000;
+	91   :   000001;
+	[92..99]  :   000000;
+	100  :   000001;
+	[101..107]  :   000000;
+	108  :   000001;
+	[109..110]  :   000000;
+	111  :   000001;
+	[112..115]  :   000000;
+	116  :   000001;
+	[117..124]  :   000000;
+	125  :   000001;
+	[126..132]  :   000000;
+	133  :   000001;
+	[134..140]  :   000000;
+	141  :   000001;
+	142  :   000000;
+	143  :   000001;
+	[144..147]  :   000000;
+	148  :   000001;
+	149  :   000000;
+	150  :   000001;
+	[151..157]  :   000000;
+	158  :   000001;
+	[159..165]  :   000000;
+	166  :   000001;
+	[167..174]  :   000000;
+	175  :   000001;
+	[176..179]  :   000000;
+	180  :   000001;
+	[181..182]  :   000000;
+	183  :   000001;
+	[184..190]  :   000000;
+	191  :   000001;
+	[192..211]  :   000000;
+	212  :   000001;
+	[213..434]  :   000000;
+	435  :   000001;
+	[436..703]  :   000000;
+	704  :   000001;
+	[705..767]  :   000000;
+END;
